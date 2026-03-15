@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Keep project files
+!flake.lock
+!flake.nix
+!pyproject.toml
+!uv.lock
+!src/
+!src/**
+!.gitignore
+
+
+__pycache__
