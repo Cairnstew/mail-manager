@@ -1,7 +1,13 @@
 # Ignore everything
 *
 
-# Keep project files
+# Allow the DIRECTORY itself (crucial step)
+!backend/
+
+# Now allow the CONTENTS
+!backend/**
+
+# Keep other project files
 !flake.lock
 !flake.nix
 !pyproject.toml
@@ -9,6 +15,6 @@
 !src/
 !src/**
 !.gitignore
-
+!README.md
 
 __pycache__
